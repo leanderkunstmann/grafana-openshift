@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Template
 metadata:
-  name: grafana-openshift
+  name: grafana-openshift-v-6.6
 parameters:
 - name: GIT_URI
   displayName: Git repository URI
   description: location of the grafana git repo
-  value: https://github.com/OpenShiftDemos/grafana-openshift
+  value: https://github.com/leanderkunstmann/grafana-openshift
 - description: Github trigger secret.  A difficult to guess string encoded as part
     of the webhook URL.  Not encrypted.
   displayName: GitHub Webhook Secret
